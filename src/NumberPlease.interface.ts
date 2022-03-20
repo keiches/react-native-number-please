@@ -1,5 +1,5 @@
 import type { RefObject } from 'react';
-import type { PickerProps } from 'react-native';
+import type { PickerProps } from '@react-native-picker/picker';
 
 export interface IRNNPPicker {
   /**
