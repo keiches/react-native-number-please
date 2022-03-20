@@ -49,6 +49,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@react-native-picker/picker": "^2.4.0",
     "@release-it/conventional-changelog": "^2.0.0",
     "@testing-library/react-native": "^9.0.0",
     "@types/": "react-native-picker/picker",
