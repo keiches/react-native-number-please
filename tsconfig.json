@@ -9,11 +9,15 @@
     "esModuleInterop": true,
     "importsNotUsedAsValues": "error",
     "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
-    "lib": ["esnext"],
+    "jsx": "react-native",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitUseStrict": false,
     "noStrictGenericChecks": false,
@@ -24,9 +28,16 @@
     "strict": true,
     "target": "esnext"
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
   "exclude": [
-    "node_modules", "lib", "scripts", "__tests__", "example",
+    "node_modules",
+    "lib",
+    "scripts",
+    "__tests__",
+    "example",
     "**/*.test.tsx",
     "babel.config.js"
   ]

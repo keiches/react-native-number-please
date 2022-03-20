@@ -2,3 +2,4 @@ example/
 scripts/
 .husky/
 .circleci/
+__tests__
